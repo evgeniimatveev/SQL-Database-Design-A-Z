@@ -2,20 +2,6 @@
 🎉 Welcome to the SQL & Database Design A-Z Course Repository! 🎉
 This repository is your ultimate resource for mastering SQL and database design concepts. Whether you are just starting or looking to refine your skills, this repository will guide you through practical examples, exercises, and projects.
 
-## 📑 Table of Contents
-## 📖 What You Can Expect
-## 🚀 Why This is Important
-## 🛠️ Installation and Requirements
-## 📂 Project Structure
-## 📁 Section 1: SQL Basics
-## 📁 Section 2: Intermediate SQL
-## 📁 Section 3: Advanced SQL
-## 📁 Section 4: Database Creation & Design
-## 📁 Section 5: Database Normalization
-## 📊 Project Overview
-## 🤝 Contributing and Feedback
-## 📜 License
-## 📖 What You Can Expect
 Comprehensive SQL Learning: Understand the fundamentals and dive into advanced SQL techniques, such as complex joins, subqueries, and window functions.
 Database Design Best Practices: Learn about database normalization, table relationships, and how to design efficient and scalable databases.
 Hands-On Practice: Practice with real datasets and SQL scripts specifically tailored for PostgreSQL and MS SQL Server.
