@@ -9,18 +9,19 @@ Project-Based Learning: Work on real-world projects that consolidate your learni
 # 🚀 Why This is Important
 SQL is an essential skill for anyone involved in data analysis, database management, or software development. Mastering SQL will:
 
-## 🔍 Data Manipulation: Enhance your ability to manipulate and analyze data.
-## 🛠️ Efficiency: Equip you with the skills needed to design and manage databases efficiently.
-## 📈 Career Preparation: Prepare you for various tech roles, such as data analyst, database administrator, and more.
-## 🛠️ Installation and Requirements
+### 🔍 Data Manipulation: Enhance your ability to manipulate and analyze data.
+### 🛠️ Efficiency: Equip you with the skills needed to design and manage databases efficiently.
+### 📈 Career Preparation: Prepare you for various tech roles, such as data analyst, database administrator, and more.
+### 🛠️ Installation and Requirements
 To work with the materials in this repository, you'll need the following tools:
 
 Required Tools:
-## 🐘 PostgreSQL and PgAdmin 4 (for PostgreSQL exercises)
-## 🖥️ MS SQL Server and SQL Server Management Studio (SSMS) (for MS SQL Server exercises)
+### 🐘 PostgreSQL and PgAdmin 4 (for PostgreSQL exercises)
+### 🖥️ MS SQL Server and SQL Server Management Studio (SSMS) (for MS SQL Server exercises)
 Recommended:
-## 📚 Basic understanding of SQL
+### 📚 Basic understanding of SQL
 🗄️ Familiarity with relational database concepts
+
 # 📂 Project Structure
 The repository is organized into sections to mirror the course structure, with separate folders for PostgreSQL (PGAdmin) and MS SQL Server (SSMS):
 
