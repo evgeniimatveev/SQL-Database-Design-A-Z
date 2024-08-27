@@ -24,31 +24,35 @@ Recommended:
 # 📂 Project Structure
 The repository is organized into sections to mirror the course structure, with separate folders for PostgreSQL (PGAdmin) and MS SQL Server (SSMS):
 
-## 📁 Section 1: SQL Basics
+# 📁 Section 1: SQL Basics
 Introduction to SQL: Learn the basics, including SELECT statements, filtering data, and basic functions.
 
 Files Included: Basic SQL scripts, example datasets.
 ### 🐘 PGAdmin: Basic SQL scripts for PostgreSQL, including SELECT, WHERE, etc.
 ### 🖥️ SSMS: Equivalent SQL scripts for MS SQL Server.
-## 📁 Section 2: Intermediate SQL
+
+# 📁 Section 2: Intermediate SQL
 Advanced Queries: Dive into JOINs, subqueries, and grouping.
 
 Files Included: SQL scripts for JOINs, GROUP BY, HAVING, and subqueries.
 ### 🐘 PGAdmin: SQL scripts for PostgreSQL.
 ### 🖥️ SSMS: SQL scripts for MS SQL Server.
-## 📁 Section 3: Advanced SQL
+
+# 📁 Section 3: Advanced SQL
 Complex SQL Operations: Explore complex joins, window functions, and advanced filtering techniques.
 
 Files Included: Advanced SQL scripts, challenging exercises.
 ### 🐘 PGAdmin: Advanced SQL scripts for PostgreSQL.
 ### 🖥️ SSMS: Corresponding SQL scripts for MS SQL Server.
-## 📁 Section 4: Database Creation & Design
+
+# 📁 Section 4: Database Creation & Design
 Creating and Populating Databases: Learn how to design and create a database from scratch.
 
 Files Included: SQL scripts for creating databases and tables, inserting data.
 ### 🐘 PGAdmin: Scripts for creating databases and tables in PostgreSQL.
 ### 🖥️ SSMS: Scripts for creating databases and tables in MS SQL Server.
-## 📁 Section 5: Database Normalization
+
+# 📁 Section 5: Database Normalization
 Normalization Techniques: Understand and apply 1NF, 2NF, and 3NF.
 
 # Files Included: SQL scripts demonstrating normalization.
