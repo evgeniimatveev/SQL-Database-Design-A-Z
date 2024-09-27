@@ -1,13 +1,20 @@
-SQL & Database Design A-Z 📚💻
+# SQL & Database Design A-Z 📚💻
+
 🎉 Welcome to the SQL & Database Design A-Z Course Repository! 🎉
+
 This repository is your ultimate resource for mastering SQL and database design concepts. Whether you're just starting out or looking to refine your skills, this repository will guide you through practical examples, exercises, and projects.
 
-What You'll Learn 🧑‍💻
+---
+
+## What You'll Learn 🧑‍💻
+
 Comprehensive SQL Learning: Understand the fundamentals and dive into advanced SQL techniques, such as complex joins, subqueries, and window functions.
 Database Design Best Practices: Learn about database normalization, table relationships, and how to design efficient and scalable databases.
 Hands-On Practice: Practice with real datasets and SQL scripts specifically tailored for PostgreSQL and MS SQL Server.
 Project-Based Learning: Work on real-world projects that consolidate your learning and prepare you for practical challenges.
-🚀 Why This is Important
+---
+
+## 🚀 Why This is Important
 SQL is an essential skill for anyone involved in data analysis, database management, or software development. By mastering SQL, you will:
 
 🔍 Data Manipulation: Enhance your ability to manipulate and analyze data.
@@ -16,16 +23,20 @@ SQL is an essential skill for anyone involved in data analysis, database managem
 🛠️ Installation and Requirements
 To work with the materials in this repository, you'll need the following tools:
 
-Required Tools:
+---
+
+## Required Tools:
 🐘 PostgreSQL and PgAdmin 4 (for PostgreSQL exercises)
 🖥️ MS SQL Server and SQL Server Management Studio (SSMS) (for MS SQL Server exercises)
 Recommended:
 📚 Basic understanding of SQL
 🗄️ Familiarity with relational database concepts
-📂 Project Structure
+---
+
+## 📂 Project Structure
 The repository is organized into sections that mirror the course structure, with separate folders for PostgreSQL (PGAdmin) and MS SQL Server (SSMS):
 
-📁 Section 1: SQL Basics
+### 📁 Section 1: SQL Basics
 Introduction to SQL: Learn the basics, including SELECT statements, filtering data, and basic functions.
 Files Included: Basic SQL scripts, example datasets.
 🐘 PGAdmin: Basic SQL scripts for PostgreSQL, including SELECT, WHERE, etc.
