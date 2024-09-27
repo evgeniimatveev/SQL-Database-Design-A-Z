@@ -39,13 +39,19 @@ The repository is organized into sections that mirror the course structure, with
 ### 📁 Section 1: SQL Basics
 Introduction to SQL: Learn the basics, including SELECT statements, filtering data, and basic functions.
 Files Included: Basic SQL scripts, example datasets.
-🐘 PGAdmin: Basic SQL scripts for PostgreSQL, including SELECT, WHERE, etc.
-🖥️ SSMS: Equivalent SQL scripts for MS SQL Server.
+
+### 🐘 PGAdmin: Basic SQL scripts for PostgreSQL, including SELECT, WHERE, etc.
+### 🖥️ SSMS: Equivalent SQL scripts for MS SQL Server.
+
+---
 📁 Section 2: Intermediate SQL
+
 Advanced Queries: Dive into JOINs, subqueries, and grouping.
 Files Included: SQL scripts for JOINs, GROUP BY, HAVING, and subqueries.
-🐘 PGAdmin: SQL scripts for PostgreSQL.
-🖥️ SSMS: SQL scripts for MS SQL Server.
+
+### 🐘 PGAdmin: SQL scripts for PostgreSQL.
+### 🖥️ SSMS: SQL scripts for MS SQL Server.
+---
 📁 Section 3: Advanced SQL
 Complex SQL Operations: Explore complex joins, window functions, and advanced filtering techniques.
 Files Included: Advanced SQL scripts, challenging exercises.
