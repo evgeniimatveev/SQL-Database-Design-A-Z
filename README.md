@@ -85,14 +85,10 @@ We welcome contributions to improve this repository! If you find any issues or h
 2. 🌿 Create a new branch:  
    ```bash
    git checkout -b feature/your-feature
-💾 Commit your changes:
-bash
-Copy code
-git commit -m 'Add your feature'
-📤 Push to the branch:
-bash
-Copy code
-git push origin feature/your-feature
-🔁 Open a Pull Request.
-📜 License
+---
+
+### 📜 License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
