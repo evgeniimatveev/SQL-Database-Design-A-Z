@@ -41,8 +41,8 @@ Strong SQL skills help you:
 - Apply best practices for **data integrity** and **query performance**.
 
 
+## 🗄️ Repository Structure
 
-🗄️ Repository Structure
 ```
 archive/
 ├─ basics/                        # Intro to SQL & relational design
@@ -57,12 +57,13 @@ archive/
 
 
 ## ⚙️ How to Use
+
 # Clone this repository
 ```
 git clone https://github.com/evgeniimatveev/SQL-Database-Design-A-Z.git
 cd SQL-Database-Design-A-Z
 ```
-## (Optional) Load SQL scripts into PostgreSQL
+# (Optional) Load SQL scripts into PostgreSQL
 ```
 psql -U postgres -d database_name -f ./scripts/setup.sql
 ```
