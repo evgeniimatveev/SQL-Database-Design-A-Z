@@ -18,7 +18,7 @@ It’s designed for **data analysts, data engineers, and MLOps learners** who wa
 ## 🧭 Table of Contents
 - [📘 What You’ll Learn](#-what-youll-learn)
 - [🧠 Why This Is Important](#-why-this-is-important)
-- [🗄️ Repository Structure](#️-repository-structure)
+- [🗄️ Repository Structure](#-repository-structure)
 - [⚙️ How to Use](#-how-to-use)
 - [🌟 Author](#-footer--author)
 
@@ -56,7 +56,7 @@ archive/
 
 
 
-## ⚙️ How to Use
+## ⚙️ How to Use <a id="how-to-use"></a>
 
 # Clone this repository
 ```
