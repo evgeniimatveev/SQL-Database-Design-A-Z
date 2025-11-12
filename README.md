@@ -19,7 +19,7 @@ It’s designed for **data analysts, data engineers, and MLOps learners** who wa
 - [📘 What You’ll Learn](#-what-youll-learn)
 - [🧠 Why This Is Important](#-why-this-is-important)
 - [🗄️ Repository Structure](#-repository-structure)
-- [⚙️ How to Use](#-how-to-use)
+- [⚙️ How to Use](#how-to-use)
 - [🌟 Author](#-footer--author)
 
 
