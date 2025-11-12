@@ -14,16 +14,13 @@ This repository is your complete guide to mastering **SQL fundamentals**, **data
 It’s designed for **data analysts, data engineers, and MLOps learners** who want to build a strong foundation in **PostgreSQL** and **SQL architecture**.
 
 
-## 🧭  Table of Contents
+
+## 🧭 Table of Contents
 - [📘 What You’ll Learn](#-what-youll-learn)
 - [🧠 Why This Is Important](#-why-this-is-important)
-- [🧩 Repository Structure](#-repository-structure)
-- [🗄️ Case Studies & Examples](#-case-studies--examples)
+- [🗄️ Repository Structure](#️-repository-structure)
 - [⚙️ How to Use](#-how-to-use)
-- [🧩 Requirements](#-requirements)
-- [🤝 Contributing & Feedback](#-contributing--feedback)
-- [📜 License](#-license)
-- [🌟 Author](#-author)
+- [🌟 Author](#-footer--author)
 
 
 ## 📘 What You’ll Learn
