@@ -1,0 +1,10 @@
+ --- GitHub Linguist: treat SQL as main language ---
+
+# SQL files
+*.sql linguist-detectable=true linguist-language=SQL
+
+# Не считать данные языком программирования
+*.csv  linguist-detectable=false
+*.tsv  linguist-detectable=false
+*.xls  linguist-detectable=false
+*.xlsx linguist-detectable=false
