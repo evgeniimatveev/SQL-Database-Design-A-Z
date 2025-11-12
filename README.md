@@ -42,7 +42,7 @@ Strong SQL skills help you:
 
 
 
-🗄️ 6. Repository Structure
+🗄️ Repository Structure
 ```
 archive/
 ├─ basics/                        # Intro to SQL & relational design
@@ -56,7 +56,7 @@ archive/
 
 
 
-## ⚙️ 7. How to Use
+## ⚙️ How to Use
 # Clone this repository
 ```
 git clone https://github.com/evgeniimatveev/SQL-Database-Design-A-Z.git
@@ -67,7 +67,7 @@ cd SQL-Database-Design-A-Z
 psql -U postgres -d database_name -f ./scripts/setup.sql
 ```
 
-## 🌟 8. Footer / Author
+## 🌟 Footer / Author
 
 - 📦 Version 1.0 · 🧑‍💻 Maintained by @evgeniimatveev  
 - 🪪 Licensed under MIT · ⭐ Star this repo to support future updates!**
