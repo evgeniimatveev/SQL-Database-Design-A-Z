@@ -1,0 +1,27 @@
+name: PostgreSQL run (manual)
+
+# Manual only: click "Run workflow" in the Actions tab. No push / PR / schedule triggers.
+# Executes every PostgreSQL script of the course on PostgreSQL 16, each from a clean database.
+on:
+  workflow_dispatch:
+  push:
+    branches: [restructure/single-main-numbered-sections]   # TEMPORARY: to test before merge
+
+permissions:
+  contents: read
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Start PostgreSQL 16 with the repository mounted at /repo
+        run: |
+          docker run -d --name pg -e POSTGRES_PASSWORD=pg -v "$GITHUB_WORKSPACE:/repo:ro" postgres:16
+          for i in $(seq 1 40); do docker exec pg pg_isready -U postgres > /dev/null 2>&1 && break; sleep 2; done
+          docker exec pg psql -U postgres -At -c "SELECT version()"
+
+      - name: Run every PostgreSQL script (see Job Summary for the table)
+        run: bash .github/scripts/run_pg.sh
