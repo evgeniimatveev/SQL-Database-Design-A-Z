@@ -1,6 +1,6 @@
 # 🎯 Quickstart
 
-One small script that shows the whole flow of SQL: create a table, insert rows, aggregate them. It uses only standard SQL, so it runs on PostgreSQL and on SQL Server.
+One small script that shows the whole flow of SQL: create a table, insert rows, aggregate them. It uses only standard SQL: it is tested on PostgreSQL and should work unchanged on SQL Server.
 
 | File | What it is |
 |---|---|

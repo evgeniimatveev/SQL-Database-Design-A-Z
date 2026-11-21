@@ -20,6 +20,7 @@ The same SQL course, **solved twice**: every lesson has a **PostgreSQL** version
 
 | # | Section | PostgreSQL | SQL Server | What you work on |
 |:-:|---------|:---------:|:----------:|------------------|
+| 00 | [Quickstart](00-quickstart/) 🎯 | 1 | – | CREATE, INSERT and GROUP BY in one small script (standard SQL) |
 | 01 | [SQL Basics](01-sql-basics/) 🔎 | 5 | 7 | SELECT, WHERE, LIKE on 65,499 complaints |
 | 02 | [Intermediate SQL](02-intermediate-sql/) 🔧 | 10 | 8 | ALTER, UPDATE, dates, strings on game sales |
 | 03 | [Advanced SQL](03-advanced-sql/) 🔗 | 11 | 11 | INNER, LEFT, FULL OUTER, CROSS joins |
