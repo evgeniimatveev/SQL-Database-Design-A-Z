@@ -4,8 +4,6 @@ name: PostgreSQL run (manual)
 # Executes every PostgreSQL script of the course on PostgreSQL 16, each from a clean database.
 on:
   workflow_dispatch:
-  push:
-    branches: [restructure/single-main-numbered-sections]   # TEMPORARY: to test before merge
 
 permissions:
   contents: read
