@@ -7,8 +7,8 @@ select *
 from customers;  -- 942 records (confirmed to comply with 1NF, 2NF, 3NF)
 
 -- Select all records from the items table to review the data
-select * 
-from items;  -- 126 records
+-- select * 
+-- from items;  -- 126 records  (commented out: the items table is only created below)
 
 -- Identifying and removing transitive dependencies:
 -- Create a temporary table to separate the transitive-dependent columns description and retail_price

@@ -20,12 +20,12 @@ where movie_name = 'Dune: Part Two' and movie_year = '2024';
 -- Dropping the 'for_drop_Practice' column from the 'movies' table
 -- This demonstrates how to remove a column from a table
 alter table movies
-drop column for_drop_Practice
+drop column for_drop_Practice;  -- (added: the closing semicolon was missing)
 
 -- Dropping the entire 'movies' database
 -- WARNING: This will permanently delete the entire database and all its data.
 -- Make sure this is your intention before executing this command.
-DROP DATABASE movies222;
+DROP DATABASE IF EXISTS movies222;  -- (added: IF EXISTS, this database may not exist)
 
 
 

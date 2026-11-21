@@ -10,10 +10,10 @@ PSQL=(docker exec -i pg psql -U postgres -X -q -v ON_ERROR_STOP=0)
 declare -A SETUP=(
   ["01-sql-basics"]=".github/sql/pg-s1.sql"
   ["02-intermediate-sql"]=".github/sql/pg-s2.sql"
+  ["03-advanced-sql"]=".github/sql/pg-s3.sql"
   ["05-database-normalization"]=".github/sql/pg-s5.sql"
 )
 declare -A PRELUDE=(
-  ["03-advanced-sql"]="03-advanced-sql/postgresql/00-create-4-brand-new-tables-import-data.sql"
   ["04-database-creation-and-design"]="04-database-creation-and-design/postgresql/00-create-my-database-create-table-movies.sql"
 )
 FEED="04-database-creation-and-design/postgresql/insert-into-feeding-tables.sql"
@@ -26,9 +26,10 @@ declare -A EXTRA_PRELUDE=(
 )
 
 reset_db() {
-  "${PSQL[@]}" -d postgres -At -c "SELECT datname FROM pg_database WHERE datname NOT IN ('postgres','template0','template1')" 2>/dev/null |
-    while read -r d; do "${PSQL[@]}" -d postgres -c "DROP DATABASE \"$d\"" > /dev/null 2>&1; done
-  "${PSQL[@]}" -d postgres -c "CREATE DATABASE testdb" > /dev/null 2>&1
+  # (a here-string array, not a pipe: `docker exec -i` inside a `while read` loop would swallow the list)
+  mapfile -t dbs < <(docker exec pg psql -U postgres -X -At -d postgres -c "SELECT datname FROM pg_database WHERE datname NOT IN ('postgres','template0','template1')" 2>/dev/null)
+  for d in "${dbs[@]}"; do docker exec pg psql -U postgres -X -q -d postgres -c "DROP DATABASE \"$d\"" > /dev/null 2>&1; done
+  docker exec pg psql -U postgres -X -q -d postgres -c "CREATE DATABASE testdb" > /dev/null 2>&1
 }
 
 # the COPY statements use a placeholder path; inside the container the repository is mounted at /repo
