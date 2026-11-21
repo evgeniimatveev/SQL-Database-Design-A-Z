@@ -23,7 +23,7 @@ for f in tracked:
     if " " in os.path.basename(f):
         problems.append(f"{f}: file name contains a space")
 
-sql_files = sorted(glob.glob("0*/*/*.sql")) + sorted(glob.glob("*.sql"))
+sql_files = sorted(glob.glob("0*/*/*.sql")) + sorted(glob.glob("00-quickstart/*.sql"))
 for f in sql_files:
     raw = open(f, "rb").read()
     if not raw.strip():
@@ -39,7 +39,7 @@ for f in sql_files:
         problems.append(f"{f}: unbalanced /* */ comment ({nolines.count('/*')} opened, {nolines.count('*/')} closed)")
     if (":" + BS + "Users") in txt or "/Users/" in txt:
         problems.append(f"{f}: personal absolute path")
-    if "/postgresql/" in f.replace(BS, "/"):
+    if "/postgresql/" in f.replace(BS, "/") or f.startswith("00-quickstart"):
         try:
             sqlglot.parse(txt, read="postgres")
         except (ParseError, TokenError) as exc:
@@ -49,7 +49,7 @@ for d in glob.glob("data/*.csv"):
     if os.path.getsize(d) == 0:
         problems.append(f"{d}: empty data file")
 
-pg = len([f for f in sql_files if "/postgresql/" in f.replace(BS, "/")])
+pg = len([f for f in sql_files if "/postgresql/" in f.replace(BS, "/") or f.startswith("00-quickstart")])
 print(f"Checked {len(sql_files)} SQL files ({pg} PostgreSQL parsed), {len(glob.glob('data/*.csv'))} data files, {len(problems)} problem(s)")
 for p in problems:
     print("FAIL ", p)

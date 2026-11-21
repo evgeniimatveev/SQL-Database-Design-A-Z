@@ -37,7 +37,7 @@ run_file() {
   docker exec pg bash -c "sed 's#/path/to/SQL-Database-Design-A-Z#/repo#g' /repo/$1 | psql -U postgres -X -q -d testdb -v ON_ERROR_STOP=0" > /dev/null 2> /tmp/script.err || true
 }
 
-mapfile -t SCRIPTS < <(ls 0[1-5]-*/postgresql/*.sql | sort)
+mapfile -t SCRIPTS < <( { ls 00-quickstart/*.sql; ls 0[1-5]-*/postgresql/*.sql; } | sort)
 pass=0; fail=0
 summary="${GITHUB_STEP_SUMMARY:-/dev/null}"
 { echo "## PostgreSQL run"; echo; echo "| Script | Result | Errors |"; echo "|---|:-:|--:|"; } > "$summary"
