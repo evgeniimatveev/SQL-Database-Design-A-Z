@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="810" viewBox="0 0 980 810" role="img" aria-label="How long a console lives">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fcf9f2"/><stop offset="1" stop-color="#f0e8d6"/></linearGradient></defs>
+<rect width="980" height="810" rx="16" fill="url(#bg)" stroke="#d9cdb2"/>
+<text x="32" y="46" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#1b2a41">How long a console lives</text>
+<text x="32" y="74" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#5b6b82">console-dates.csv: 30 platforms, release to discontinuation; red = no discontinuation date in the data</text>
+<line x1="176.3" y1="110" x2="176.3" y2="750" stroke="#1b2a41" stroke-opacity="0.12"/><text x="176.3" y="104" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#5b6b82">1980</text>
+<line x1="270.2" y1="110" x2="270.2" y2="750" stroke="#1b2a41" stroke-opacity="0.12"/><text x="270.2" y="104" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#5b6b82">1985</text>
+<line x1="364.1" y1="110" x2="364.1" y2="750" stroke="#1b2a41" stroke-opacity="0.12"/><text x="364.1" y="104" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#5b6b82">1990</text>
+<line x1="458.0" y1="110" x2="458.0" y2="750" stroke="#1b2a41" stroke-opacity="0.12"/><text x="458.0" y="104" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#5b6b82">1995</text>
+<line x1="551.9" y1="110" x2="551.9" y2="750" stroke="#1b2a41" stroke-opacity="0.12"/><text x="551.9" y="104" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#5b6b82">2000</text>
+<line x1="645.9" y1="110" x2="645.9" y2="750" stroke="#1b2a41" stroke-opacity="0.12"/><text x="645.9" y="104" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#5b6b82">2005</text>
+<line x1="739.8" y1="110" x2="739.8" y2="750" stroke="#1b2a41" stroke-opacity="0.12"/><text x="739.8" y="104" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#5b6b82">2010</text>
+<line x1="833.6" y1="110" x2="833.6" y2="750" stroke="#1b2a41" stroke-opacity="0.12"/><text x="833.6" y="104" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#5b6b82">2015</text>
+<text x="110" y="134" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b2a41">2600</text>
+<rect x="133.0" y="123" width="268.7" height="14" rx="5" fill="#336791"/>
+<text x="904" y="134" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5b6b82">30M sold</text>
+<text x="110" y="155" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b2a41">NES</text>
+<rect x="242.7" y="144" width="379.3" height="14" rx="5" fill="#336791"/>
+<text x="904" y="155" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5b6b82">61.91M sold</text>
+<text x="110" y="176" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b2a41">TG16</text>
+<rect x="323.3" y="165" width="133.9" height="14" rx="5" fill="#336791"/>
+<text x="904" y="176" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5b6b82">10M sold</text>
+<text x="110" y="197" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b2a41">GEN</text>
+<rect x="342.1" y="186" width="172.3" height="14" rx="5" fill="#336791"/>
+<text x="904" y="197" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5b6b82">30.75M sold</text>
+<text x="110" y="218" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b2a41">GB</text>
+<rect x="351.0" y="207" width="261.4" height="14" rx="5" fill="#336791"/>
+<text x="904" y="218" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5b6b82">118.69M sold</text>
+<text x="110" y="239" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b2a41">GG</text>
+<rect x="378.4" y="228" width="123.3" height="14" rx="5" fill="#336791"/>
+<text x="904" y="239" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5b6b82">10.62M sold</text>
+<text x="110" y="260" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b2a41">SNES</text>
+<rect x="380.8" y="249" width="241.2" height="14" rx="5" fill="#336791"/>
+<text x="904" y="260" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5b6b82">49.1M sold</text>
+<text x="110" y="281" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b2a41">NG</text>
+<rect x="392.2" y="270" width="122.1" height="14" rx="5" fill="#336791"/>
+<text x="904" y="281" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5b6b82">0.98M sold</text>
+<text x="110" y="302" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b2a41">SCD</text>
+<rect x="400.6" y="291" width="94.9" height="14" rx="5" fill="#336791"/>
+<text x="904" y="302" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5b6b82">2.24M sold</text>
+<text x="110" y="323" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b2a41">3DO</text>
+<rect x="434.7" y="312" width="60.9" height="14" rx="5" fill="#336791"/>
+<text x="904" y="323" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5b6b82">2M sold</text>
+<text x="110" y="344" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b2a41">SAT</text>
+<rect x="456.0" y="333" width="114.7" height="14" rx="5" fill="#336791"/>
+<text x="904" y="344" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5b6b82">9.26M sold</text>
+<text x="110" y="365" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b2a41">PS</text>
+<rect x="456.5" y="354" width="193.9" height="14" rx="5" fill="#336791"/>
+<text x="904" y="365" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5b6b82">102.49M sold</text>
+<text x="110" y="386" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b2a41">PCFX</text>
+<rect x="457.6" y="375" width="58.4" height="14" rx="5" fill="#336791"/>
+<text x="904" y="386" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5b6b82">0.4M sold</text>
+<text x="110" y="407" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b2a41">N64</text>
+<rect x="485.7" y="396" width="139.7" height="14" rx="5" fill="#336791"/>
+<text x="904" y="407" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5b6b82">32.93M sold</text>
+<text x="110" y="428" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b2a41">DC</text>
+<rect x="531.4" y="417" width="44.0" height="14" rx="5" fill="#336791"/>
+<text x="904" y="428" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5b6b82">9.13M sold</text>
+<text x="110" y="449" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b2a41">WS</text>
+<rect x="536.3" y="438" width="90.7" height="14" rx="5" fill="#336791"/>
+<text x="904" y="449" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5b6b82">3.5M sold</text>
+<text x="110" y="470" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b2a41">PS2</text>
+<rect x="555.2" y="459" width="240.7" height="14" rx="5" fill="#336791"/>
+<text x="904" y="470" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5b6b82">155M sold</text>
+<text x="110" y="491" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b2a41">GBA</text>
+<rect x="574.8" y="480" width="164.9" height="14" rx="5" fill="#336791"/>
+<text x="904" y="491" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5b6b82">81.51M sold</text>
+<text x="110" y="512" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b2a41">GC</text>
+<rect x="583.9" y="501" width="118.2" height="14" rx="5" fill="#336791"/>
+<text x="904" y="512" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5b6b82">21.74M sold</text>
+<text x="110" y="533" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b2a41">XB</text>
+<rect x="587.1" y="522" width="137.0" height="14" rx="5" fill="#336791"/>
+<text x="904" y="533" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5b6b82">24M sold</text>
+<text x="110" y="554" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b2a41">DS</text>
+<rect x="643.8" y="543" width="178.3" height="14" rx="5" fill="#336791"/>
+<text x="904" y="554" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5b6b82">18.79M sold</text>
+<text x="110" y="575" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b2a41">PSP</text>
+<rect x="644.8" y="564" width="188.8" height="14" rx="5" fill="#336791"/>
+<text x="904" y="575" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5b6b82">82M sold</text>
+<text x="110" y="596" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b2a41">X360</text>
+<rect x="662.6" y="585" width="195.5" height="14" rx="5" fill="#336791"/>
+<text x="904" y="596" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5b6b82">84M sold</text>
+<text x="110" y="617" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b2a41">PS3</text>
+<rect x="680.8" y="606" width="209.2" height="14" rx="5" fill="#cc2927"/>
+<path d="M890.0 605 l9 8.0 l-9 8.0 z" fill="#cc2927"/>
+<text x="904" y="617" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5b6b82">80M sold</text>
+<text x="110" y="638" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b2a41">Wii</text>
+<rect x="681.2" y="627" width="129.9" height="14" rx="5" fill="#336791"/>
+<text x="904" y="638" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5b6b82">101.63M sold</text>
+<text x="110" y="659" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b2a41">3DS</text>
+<rect x="761.4" y="648" width="128.6" height="14" rx="5" fill="#cc2927"/>
+<path d="M890.0 647 l9 8.0 l-9 8.0 z" fill="#cc2927"/>
+<text x="904" y="659" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5b6b82">61.57M sold</text>
+<text x="110" y="680" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b2a41">PSV</text>
+<rect x="776.5" y="669" width="113.5" height="14" rx="5" fill="#cc2927"/>
+<path d="M890.0 668 l9 8.0 l-9 8.0 z" fill="#cc2927"/>
+<text x="904" y="680" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5b6b82">4M sold</text>
+<text x="110" y="701" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b2a41">WiiU</text>
+<rect x="793.8" y="690" width="96.2" height="14" rx="5" fill="#cc2927"/>
+<path d="M890.0 689 l9 8.0 l-9 8.0 z" fill="#cc2927"/>
+<text x="904" y="701" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5b6b82">13.36M sold</text>
+<text x="110" y="722" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b2a41">PS4</text>
+<rect x="812.5" y="711" width="77.5" height="14" rx="5" fill="#cc2927"/>
+<path d="M890.0 710 l9 8.0 l-9 8.0 z" fill="#cc2927"/>
+<text x="904" y="722" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5b6b82">50M sold</text>
+<text x="110" y="743" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#1b2a41">XOne</text>
+<rect x="812.8" y="732" width="77.2" height="14" rx="5" fill="#cc2927"/>
+<path d="M890.0 731 l9 8.0 l-9 8.0 z" fill="#cc2927"/>
+<text x="904" y="743" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5b6b82">3M sold</text>
+<text x="32" y="792" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#5b6b82">Bars span first_retail_availability to discontinued · computed from data/console-dates.csv</text></svg>

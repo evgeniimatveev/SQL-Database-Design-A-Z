@@ -1,0 +1,22 @@
+name: SQL check
+
+# Static checks only (fast). The PostgreSQL scripts are executed in pg-run.yml (manual).
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: astral-sh/setup-uv@v7
+
+      - name: File names, encoding, comments, personal paths, PostgreSQL syntax
+        run: uv run --no-project --with sqlglot python .github/scripts/check_sql.py

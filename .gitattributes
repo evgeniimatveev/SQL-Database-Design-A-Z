@@ -1,4 +1,4 @@
- --- GitHub Linguist: treat SQL as main language ---
+# --- GitHub Linguist: treat SQL as main language ---
 
 # SQL files
 *.sql linguist-detectable=true linguist-language=SQL
